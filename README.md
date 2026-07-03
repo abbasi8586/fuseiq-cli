@@ -1,7 +1,13 @@
-# fuseiq-cli
+# FuseIQ CLI — Deploy and monitor agents from the terminal
+
+[![PyPI](https://img.shields.io/pypi/v/fuseiq-cli)](https://pypi.org/project/fuseiq-cli/)
+[![FuseIQ](https://img.shields.io/badge/FuseIQ-Outcome_OS-00D4FF?style=for-the-badge)](https://fuseiq.io)
+[![Agent SDK](https://img.shields.io/badge/Agent_SDK-181717?style=for-the-badge&logo=github)](https://github.com/abbasi8586/fuseiq-agent-sdk)
 
 The official CLI for [FuseIQ](https://fuseiq.io) — deploy, manage, and
 monitor your AI agents from the terminal.
+
+> **FuseIQ v2.2.6** — Pair the CLI with hosted Swarm Canvas, Library playbooks, and 157+ integrations. [Sign up free →](https://fuseiq.io/signup)
 
 ## Install
 
@@ -29,8 +35,19 @@ fuseiq logs my_agent
 - **`fuseiq status`** — lists all registered agents with their status.
 - **`fuseiq logs <name>`** — links to the live log view on fuseiq.io.
 
-Full monitoring, real-time metrics, and alerting are available on the
+Full monitoring, real-time metrics, Swarm orchestration, and approval gates are available on the
 FuseIQ dashboard at [https://fuseiq.io/dashboard](https://fuseiq.io/dashboard).
+
+## Ecosystem
+
+| Repo | Purpose |
+|------|---------|
+| [fuseiq-agent-sdk](https://github.com/abbasi8586/fuseiq-agent-sdk) | Python + Node SDK |
+| [fuseiq-templates](https://github.com/abbasi8586/fuseiq-templates) | Example agents |
+| **fuseiq-cli** (this repo) | Terminal tooling |
+
+- Docs: [fuseiq.io/docs](https://fuseiq.io/docs)
+- Help: [fuseiq.io/help](https://fuseiq.io/help)
 
 ## Requirements
 
@@ -39,3 +56,7 @@ FuseIQ dashboard at [https://fuseiq.io/dashboard](https://fuseiq.io/dashboard).
 ## License
 
 MIT
+
+---
+
+⭐ **Star this repo** — help developers discover FuseIQ.
